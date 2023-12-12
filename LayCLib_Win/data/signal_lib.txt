@@ -1,0 +1,12 @@
+sig_atomic_t
+signal
+raise
+SIG_DFL
+SIG_ERR
+SIG_IGN
+SIGABRT
+SIGFPE
+SIGILL
+SIGINT
+SIGSEGV
+SIGTERM
