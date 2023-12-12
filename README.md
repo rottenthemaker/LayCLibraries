@@ -1,5 +1,5 @@
 # LayCLibraries
-An application designed to speed up the process of C programming and eliminate library definition errors.
+A command line application designed to speed up the process of C programming and eliminate library definition errors.
 
 # Documentation:
 LayCLibraries is an application designed to speed up the process of C programming and eliminate library definition errors. Using it in conjunction with a C source code file allows the user to automatically check for missing library declarations, or not have to worry about finding what library the standard function they are using is in. 
@@ -7,7 +7,7 @@ I created this program specifically to help speed up my programming workflow, as
 # Usage:
 ./layclib (myfile.c) : Runs LayCLib on myfile.c. File must have a .c extension for the program to run correctly. Source file must also be in the same directory as the executable file.
 ./layclib -h : Displays usage help text, similar to the description above.
-Current Limitations:
+# Current Limitations:
 LayCLib currently isn’t all encompassing for every library function and macro, but from my limited knowledge of C libraries, looking through .h files, and Wikipedia, I included most if not all major functions and a lot of smaller macros and functions as well. 
 LayCLib only currently works on .c files for safety reasons, and it also has no ability to automatically compile the code afterwards, or rename the output file. These features are planned for the next version which will hopefully be released on GitHub
 You can technically add support for your own custom libraries, but you need to edit the source code to add checking functionality for your library set. Ability to add custom libraries without editing code is also a planned feature.
